@@ -1,7 +1,7 @@
 ## Creating a scoped package in the workspace
 
 ```bash
-npm init --scope=@{named-scope} -y -w ./packages/{package-name}
+npm run add-package --scope={named=scope} --package_name={package_name}
 ```
 
 ## Installing node modules for the package in workspace
@@ -20,4 +20,7 @@ must have setting "composite": true.
 
 how to benchmark between the versions?
 
-references https://blog.frankdejonge.nl/setting-up-a-typescript-mono-repo-for-scoped-packages/
+## References
+
+https://blog.frankdejonge.nl/setting-up-a-typescript-mono-repo-for-scoped-packages/
+https://www.twilio.com/blog/npm-scripts

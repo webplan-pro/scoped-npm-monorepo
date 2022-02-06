@@ -1,8 +1,17 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist/"
-  },
-  "include": ["./**/*.ts"],
-  "references": [{ "path": "../is-even" }]
+    "incremental": true,
+    "target": "es2019",
+    "module": "commonjs",
+    "declaration": true,
+    "composite": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
