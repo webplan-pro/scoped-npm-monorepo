@@ -9,7 +9,7 @@ e.g. `"^@acme-corp/(.\*)$": "<rootDir>/packages/$1/"` -> `"^@my-corp/(.\*)$": "<
 ## Creating a scoped package in the workspace
 
 ```bash
-npm run add-package --scope={named=scope} --package_name={package_name}
+npm run add-package --scope={named-scope} --package_name={package-name}
 ```
 
 ## Installing node modules for the package in workspace
@@ -35,7 +35,7 @@ Running the `npm test` command from projects root directory will run the tests f
 ### The package in workspace
 
 ```bash
-npm test -w {named-scope/package_name}
+npm test -w {named-scope/package-name}
 ```
 
 ## References
