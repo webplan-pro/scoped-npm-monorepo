@@ -12,13 +12,23 @@ npm init --scope=@{named-scope} -y
 
 ## Adding a git submodule
 
-In order to add a submodule change directory to packages a
+In order to add a submodule change directory to `./package` and run:
 
-## Notes on scoped packages
+```bash
+git submodule add {url}
+```
 
-must have setting "composite": true.
+## Testing
 
-how to benchmark between the versions?
+### The workspace
+
+Running the `npm test` command from root directory will run the tests for the all the packages in the workspace.
+
+### The package in workspace
+
+```bash
+npm test -w {named-scope/package_name}
+```
 
 ## References
 
