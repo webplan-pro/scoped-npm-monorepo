@@ -30,7 +30,7 @@ git submodule add {url}
 
 ### The workspace
 
-Running the `npm test` command from root directory will run the tests for the all the packages in the workspace.
+Running the `npm test` command from projects root directory will run the tests for the all the packages in the workspace.
 
 ### The package in workspace
 
