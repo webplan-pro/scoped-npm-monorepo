@@ -1,3 +1,0 @@
-[submodule "packages/dendron"]
-	path = packages/dendron
-	url = git@github.com:dendronhq/dendron.git

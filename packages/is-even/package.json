@@ -1,0 +1,14 @@
+{
+  "name": "@acme-corp/is-even",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "compile": "rm -rf dist/* && tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

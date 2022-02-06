@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/even-or-odd" },
+    { "path": "packages/is-odd" },
+    { "path": "packages/is-even" }
+  ]
+}
+
+// {
+//   "exclude": ["**/*.test.ts", "**/*.stub.ts", "node_modules", "dist"],
+//   "compilerOptions": {
+//     "target": "ES2015",
+//     "module": "commonjs",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "declaration": true,
+//     "paths": {
+//       "@acme-corp/*": ["./packages/*/"]
+//     }
+//   }
+// }
