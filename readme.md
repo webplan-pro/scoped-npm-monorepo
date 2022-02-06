@@ -1,8 +1,10 @@
 ## Configuring the template
 
-[]: # Edit jest.config.json ['moduleNameMapper'] with your scoped package names
+- [ ] Edit jest.config.json ['moduleNameMapper'] with your scoped package names
+
 e.g. `"^@acme-corp/(.\*)$": "<rootDir>/packages/$1/"` -> `"^@my-corp/(.\*)$": "<rootDir>/packages/$1/"`
-[]: # Remove example packages from `./packages` folder by deleting them
+
+- [ ] Remove example packages from `./packages` folder by deleting them
 
 ## Creating a scoped package in the workspace
 
